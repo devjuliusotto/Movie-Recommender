@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+</head>
+<body>
+    <h1>Movie Recommender</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.title.label }}<br>
+            {{ form.title(size=32) }}<br>
+        </p>
+        <p>
+            {{ form.genre.label }}<br>
+            {{ form.genre(size=32) }}<br>
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+    <ul>
+        {% for movie in movies %}
+            <li>{{ movie.title }} - {{ movie.genre }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
