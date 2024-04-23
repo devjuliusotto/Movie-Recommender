@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Análise de Sentimento</title>
+</head>
+<body>
+    <h1>Resultados da Análise de Sentimento</h1>
+    {% if sentiments %}
+        <ul>
+        {% for text, sentiment in sentiments %}
+            <li>"{{ text }}" - Polaridade: {{ sentiment.polarity }} Subjetividade: {{ sentiment.subjectivity }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nenhum resultado encontrado.</p>
+    {% endif %}
+    <a href="/">Voltar</a>
+</body>
+</html>
