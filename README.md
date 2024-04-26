@@ -11,7 +11,7 @@ Este projeto é uma réplica da interface da Netflix com um foco adicional na in
 ## Tecnologias Utilizadas
 
 - **Frontend**: React.js, HTML5, CSS3 para a construção da interface do usuário.
-- **Backend**: Node.js com Express para serviços de backend.
+- **Backend**: Python com Flask para serviços de backend.
 - **Machine Learning**: Python com as bibliotecas scikit-learn, TensorFlow e PyTorch para o desenvolvimento dos algoritmos de recomendação.
 - **Banco de Dados**: MongoDB ou PostgreSQL para armazenamento de dados de usuário e conteúdo.
 
@@ -25,7 +25,4 @@ Certifique-se de ter instalado:
 - Gerenciador de pacotes NPM ou Yarn
 - [MongoDB](https://www.mongodb.com/try/download/community) ou [PostgreSQL](https://www.postgresql.org/download/)
 
-## Estágio do Desenvolvimento
-
-Estágio inicial.
-Projeto iniciado em 12/04/2024 para fins didáticos.
+## Estágio inicial do projeto
