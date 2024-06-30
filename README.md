@@ -26,3 +26,4 @@ Certifique-se de ter instalado:
 - [MongoDB](https://www.mongodb.com/try/download/community) ou [PostgreSQL](https://www.postgresql.org/download/)
 
 ## Estágio inicial do projeto
+Update on 2024-06-30T02:47:13
